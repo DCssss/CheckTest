@@ -5,13 +5,13 @@ import java.util.List;
 public class AccountsList {
 
 	public void print(List<Account> accounts, String message) {
-		System.out.println("Информация по счетам клиентам: " + message);
+		System.out.println("РРЅС„РѕСЂРјР°С†РёСЏ РїРѕ СЃС‡РµС‚Р°Рј РєР»РёРµРЅС‚Р°Рј: " + message);
 		for (Account account : accounts) {
 			if (account.getIsopen() == 1) {
-				message = "Заблокирована";
+				message = "Р—Р°Р±Р»РѕРєРёСЂРѕРІР°РЅР°";
 			}
 			else {
-				message = "Действующая";
+				message = "Р”РµР№СЃС‚РІСѓСЋС‰Р°СЏ";
 			}
 			
 			System.out.print(
